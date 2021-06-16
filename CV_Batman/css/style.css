@@ -1,0 +1,40 @@
+header{
+background-image: url('/img/logo\ batman.png');
+text-align: center;
+background-color:#E6E6E6;
+}
+h1{
+background-color: #C4C4C4;
+color:#005677;
+text-align: center;
+font-weight: 1013px;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-size: 35px;
+line-height: 29,64px;
+}
+h2{
+background-color: #C4C4C4;
+color:#005677;
+text-transform: uppercase; 
+font-family: 'Times New Roman', Times, serif;
+font-weight: 700px;
+font-style: normal;
+font-size: 20px;
+line-height: 16,94px;
+}
+section .subtitulo ul{
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+line-height: 12,7px;
+}
+section .principal ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 12,7px;
+}
+footer{
+    background-color: #005677;
+    color:#FFFFFF;
+    text-align: center;
+}
