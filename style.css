@@ -1,4 +1,12 @@
 body{
 text-align: center;
-background-color: violet;
+background-color: rgb(161, 238, 130);
+}
+.lemon{
+width: 140px;
+height: 120px;
+}
+#cv {
+width: 140px;
+height: 120px;
 }

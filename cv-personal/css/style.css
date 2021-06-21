@@ -1,0 +1,35 @@
+body {
+font-family:'Noto Sans T C', sans-serif;
+font-weight: normal;
+background-color: rgba(0, 255, 128, 0.3);
+text-align: justify;
+}
+.sobremi { 
+text-align: center;
+}
+
+#banner {
+background-image:url('../img/watercolor.jpg');
+text-align: center;
+}
+
+.foto {
+width: 150px;
+height: 150px;
+}
+h1 {
+font-size: xx-large;
+color:slateblue;
+}
+h2{
+color:slateblue;
+}
+
+p {
+text-align: center;    
+}
+
+footer {
+background-color: turquoise;
+text-align: center;
+}

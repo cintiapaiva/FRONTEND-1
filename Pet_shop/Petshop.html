@@ -6,69 +6,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Roboto & display = swap" rel = "hoja de estilo ">  
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <section id="barra superior">
-            <ul type="none">
+        <section id="formulario">
+            <ul class="barra" type="none">
                 <li>Grande Ofertas en comedores</li>
                 <li>
                     <ul type="none">
-                        <li>Español</li>
-                        <li>$ARG</li>
+                        <li>Español
+                        <i class="fas fa-angle-down"></i>
+                        </li>
+                        <li>ARG$</li>
+                        <i class="fas fa-angle-down"></i>
                     </ul>
                 </li>
             </ul>
         </section>
-        <section id="Barra de menu Principal">
-            <img src="./img/Logo.png" alt="Logo">
+    <header>
+        <section id="Barra de menu principal">
+            <img class="logo" src="./img/Logo.png" alt="Logo">
             <nav>
                 <ul type="none">
-                    <li>Categorías</li>
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
+                    <li>
+                    <i class="fas fa-paw"></i>
+                    Categorías
+                    </li>
+                    <li>
+                    <i class="fas fa-paw"></i>    
+                    Pets
+                    </li>
+                    <li>
+                    <i class="fas fa-paw"></i>
+                    Nosotros
+                    </li>
+                    <li>
+                    <i class="fas fa-paw"></i>    
+                    Contactanos
+                    </li>
                 </ul>
             </nav>
         </section>
     </header>
     <main>
         <section id="banner">
-            <img src="./img/banner.png" alt="Banner">
-            <p>¡Es un placer tenerte aquí! <br> ¡Comederos en descuento! <br> COMEDEROS </p>
+            <p class="placer">
+            ¡Es un placer tenerte aquí! 
+            </p>
+            <p class="descuento">
+            ¡Comederos en descuento!
+            </p>  
+            <p class="comederos">
+            COMEDEROS 
+            </p>
         </section>
-        <section id="Productos">
-            <img src="./img/huellla.png" alt="Huella">
-            <h1 align="center">Productos Destacados</h1>
+        <section>
+            <img class="huella" src="./img/huellla.png" alt="Huella">
+            <h1>
+            Productos Destacados
+            </h1>
             <nav>
-                <ul type="none">
-                    <li>Comederos</li>
-                    <li>Accesorios</li>
-                    <li>Comida</li>
-                </ul>
+            <p> Comederos - Accesorios - Comida </p>
             </nav>
             <img src="./img/churrasquito.png" alt="juguete churrasquito">
             <dl>
-                <dt>Juguete Churrasquito</dt>
-                <dd>$150</dd>
+                <dt class="titulo">Juguete Churrasquito</dt>
+                <dd class="precios">$150</dd>
             </dl>
             <img src="./img/comedero.png" alt="Comedero">
             <dl>
-                <dt>Comedero para perro</dt>
-                <dd>$150</dd>
+                <dt class="titulo">Comedero para perro</dt>
+                <dd class="precios">$150</dd>
             </dl>
             <img src="./img/Huesito.png" alt="Huesito">
             <dl>
-                <dt>Juguete Huesito</dt>
-                <dd>$150</dd>
+                <dt class="titulo">Juguete Huesito</dt>
+                <dd class="precios">$150</dd>
             </dl>
         </section>
     </main>
     <footer>
-        <h3 align="center">Todos los derechos reservados Front End</h3>
-        <h4 align="center">Grupo 2</h4>
-        <h4 align="center">Agustin D'Amelio - Candela Vidal - Cintia Paiva - Augusto Landra</h4>
+    <h3>
+    <i class="fas fa-map-marker-alt"></i>    
+    Localidad
+    </h3>  
+    <h4 class="datos">Calle - provincia</h4>
+    <h3>
+    <i class="fas fa-phone-volume"></i>    
+    Teléfono
+    </h3>  
+    <h4 class="datos">Número de teléfono</h4>
+    <h3>
+    <i class="fas fa-envelope-open-text"></i>   
+    Correo Electrónico
+    </h3>  
+    <h4 class="datos"> Dirección de correo</h4>
+    <img src="img/Logo 2.png" alt="logo2">
+    <h5>Todos los derechos reservados Front End</h5>
     </footer>
 </body>
 </html>

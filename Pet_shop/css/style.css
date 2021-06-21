@@ -1,0 +1,94 @@
+body {
+width: 1024px;
+height: 1807px;
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+font-style: normal;
+font-size: 15px;
+line-height: 17,58px;
+}
+
+#formulario {
+background-color:#222222;
+color: #F3F3F3;
+height: 62px;
+font-size: 10px;
+line-height: 11,72px;
+}
+
+header {
+background-color: #F0A83E;
+color: #FFFFFF;
+font-size: 13px;
+line-height: 15,23px;
+}
+
+#banner {
+background-image: url('../img/banner.png');
+width: 1025px;
+height: 409px;
+}
+
+.placer {
+font-size: 30px;
+line-height: 35,16px;
+text-align: center;
+color: #3C2313;
+}
+
+.descuento {
+font-size: 16px;
+line-height: 18,75px;
+text-align: center;
+color: #3C2313;
+}
+
+.comederos{
+font-size: 16px;
+line-height: 18,75px;
+text-align: center;
+color: #FFFFFF;
+}
+
+h1 {
+text-align: center;
+color: #3C2313;
+font-size: 40px;
+line-height: 46,88px;
+font-weight: bold;
+}
+
+.datos {
+font-size: 10px;
+line-height: 11,72px;
+color: #8A8787;
+}
+
+h5 {
+background-color: #222222;
+text-align: center;
+font-size: 10px;
+line-height: 11,72px;
+}
+
+p {
+color: #666666;
+}
+
+.titulo {
+color: #3C2313;   
+}
+
+.precios {
+color: #F0A83E;
+}
+
+footer {
+background-color: #3C2313;
+color: #FFFFFF;
+height: 284px;
+font-weight: bold;
+font-size: 20px;
+line-height: 23,44px;
+}
+
