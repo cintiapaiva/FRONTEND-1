@@ -1,0 +1,156 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 18,75px;
+font-weight: normal;
+font-style: normal;
+}
+
+header {
+background-color: #222222;
+color: #F3F3F3;
+width: auto;
+height: auto;
+}
+
+
+.menu {
+gap: 20px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-start ;
+position: relative;
+top: 50px;
+padding-right: 15px;
+}
+
+
+#logo {
+width: 30%;
+font-weight: bold;
+position: relative;
+padding-left: 15px;
+}
+
+p {
+font-size: 24px;
+line-height: 28,13px;
+display: inline-block;
+position: absolute;
+bottom: 30px;
+padding-left: 10px;
+}
+
+.pizza{
+color: #39B24A;
+}
+
+.front {
+color: red;
+}
+main {
+background-color: #E5E5E5;
+display: flex;
+}
+.delivery {
+background-image: url('../img/delivery.jpg');
+background-repeat: no-repeat;
+width: 490px;
+height: 350px;
+border-radius: 5px;
+margin: 60px;
+}
+h2 {
+color: #FC200C;
+padding: 15px;
+}
+
+.delivery span {
+color: #E5E5E5;
+}
+
+.podio {
+background-color: #FFFFFF;
+width: 491px;
+height: 350px;
+border-radius: 5px;
+font-weight: bold;
+margin: 60px;
+}
+
+.podio h2 {
+text-align: center;
+padding-top: 10px;
+}
+
+.podio h3 {
+width: 210px;
+position: relative;
+left: 70px;
+top: 60px;
+}
+.podio ol {
+width: 250px;
+position: relative;
+top: 80px;
+left: 80px;
+}
+
+.podio li {
+width: 200px;
+height: 20px;
+margin: 5px;
+}
+
+.podio img {
+width: 92px;
+height: 129px;
+position: relative;
+left: 300px;
+bottom: 60px;
+right: 50px;
+}
+footer {
+background-color: #222222;
+width: auto;
+height: 200px;
+color: #F3F3F3;
+}
+
+.menu2 {
+display: flex;
+flex-direction: column;
+width: 50%;
+height: 130px;
+justify-content: space-around;
+position: relative;
+top: 20px;
+left: 10px;
+}
+
+footer div {
+background-image: url('../img/VectorPizza.png');
+width: 92px;
+height: 80px;
+position: relative;
+left: 950px;
+bottom: 93px;
+
+}
+
+footer p {
+font-size: 20px;
+line-height: 23,44px;
+font-weight: bold;
+display: inline-block;
+position: relative;
+left: 1050px;
+bottom: 140px;
+}
+

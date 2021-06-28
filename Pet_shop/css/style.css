@@ -1,19 +1,39 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
 body {
-width: 1024px;
-height: 1807px;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
 font-style: normal;
 font-size: 15px;
 line-height: 17,58px;
+width: 1025px;
+height: 409px;
 }
 
 #formulario {
 background-color:#222222;
 color: #F3F3F3;
-height: 62px;
+height: 35px;
 font-size: 10px;
 line-height: 11,72px;
+}
+
+section#formulario p {
+display: inline;
+position: relative;
+top: 10px;
+}
+#idioma {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+flex-wrap: wrap;
+width: 1000px;
+gap: 15px;
 }
 
 header {
@@ -23,31 +43,59 @@ font-size: 13px;
 line-height: 15,23px;
 }
 
+nav ul {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 10px;
+margin-right: 20px;
+}
+
 #banner {
 background-image: url('../img/banner.png');
-width: 1025px;
 height: 409px;
 }
 
-.placer {
+section#banner p:nth-of-type(1) {
 font-size: 30px;
 line-height: 35,16px;
 text-align: center;
 color: #3C2313;
+background-color: #FFFFFF;
+width: 365px;
+height: 54px;
+border-radius: 15px;
 }
 
-.descuento {
+section#banner p:nth-of-type(2) {
 font-size: 16px;
 line-height: 18,75px;
 text-align: center;
 color: #3C2313;
 }
 
-.comederos{
+section#banner p:nth-of-type(3) {
 font-size: 16px;
 line-height: 18,75px;
 text-align: center;
 color: #FFFFFF;
+width: 141px;
+height: 49px;
+background-color: #F0A83E;
+border-radius: 15px;
+}
+
+#titulo img {
+position: relative;
+left: 455px;
+margin: 15px;
+}
+
+#titulo nav {
+position: relative;
+left: 360px;
+padding: 15px;
+margin: 15px;
 }
 
 h1 {
@@ -71,6 +119,30 @@ font-size: 10px;
 line-height: 11,72px;
 }
 
+section#productos article:nth-of-type(1) {
+background-image: url('../img/churrasquito.png');
+height: 312px;
+width: 265px;
+}
+
+section#productos article:nth-of-type(2) {
+background-image: url('../img/comedero.png');
+height: 312px;
+width: 265px;
+}
+
+section#productos article:nth-of-type(3) {
+background-image: url('../img/Huesito.png');
+height: 312px;
+width: 265px;
+}
+
+#productos {
+display: flex;
+justify-content: space-around;
+margin: 30px;
+}
+
 p {
 color: #666666;
 }
@@ -83,10 +155,42 @@ color: #3C2313;
 color: #F0A83E;
 }
 
+h2 {
+font-weight: bold;
+font-size: 25px;
+line-height: 29,3px;
+color: #3C2313;
+padding: 10px;
+margin: 10px;
+text-align: center;
+}
+
+#contacto {
+position: relative;
+left: 350px;
+margin: 10px;
+}
+section#contacto div:nth-of-type(1), section#contacto div:nth-of-type(2), section#contacto div:nth-of-type(3) {
+background-color: #3C2313;
+width: 340px;
+height: 40px;
+text-align: left;
+border-radius: 5px;
+color: #FFFFFF;
+font-size: 9px;
+line-height: 10,55px;
+margin: 15px;
+}
+
+#suscribite {
+background-color: #F0A83E;
+height: 60px;
+}
+
 footer {
 background-color: #3C2313;
 color: #FFFFFF;
-height: 284px;
+height: 301px;
 font-weight: bold;
 font-size: 20px;
 line-height: 23,44px;
