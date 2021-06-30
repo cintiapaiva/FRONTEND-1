@@ -22,11 +22,8 @@ font-size: 10px;
 line-height: 11,72px;
 }
 
-section#formulario p {
-display: inline;
-position: relative;
-top: 10px;
-}
+
+
 #idioma {
 display: flex;
 justify-content: flex-end;
@@ -34,6 +31,7 @@ align-items: center;
 flex-wrap: wrap;
 width: 1000px;
 gap: 15px;
+color: #F3F3F3;
 }
 
 header {
@@ -43,12 +41,20 @@ font-size: 13px;
 line-height: 15,23px;
 }
 
+header img {
+position:relative;
+top: 10px;
+left: 10px;
+}
+
 nav ul {
 display: flex;
 justify-content: flex-end;
 align-items: center;
 gap: 10px;
 margin-right: 20px;
+position:relative;
+bottom: 15px;
 }
 
 #banner {
@@ -64,7 +70,11 @@ color: #3C2313;
 background-color: #FFFFFF;
 width: 365px;
 height: 54px;
-border-radius: 15px;
+border-radius: 5px;
+position: relative;
+left: 650px;
+top: 150px;
+padding-top: 10px;
 }
 
 section#banner p:nth-of-type(2) {
@@ -72,6 +82,9 @@ font-size: 16px;
 line-height: 18,75px;
 text-align: center;
 color: #3C2313;
+position: relative;
+top: 170px;
+left: 310px;
 }
 
 section#banner p:nth-of-type(3) {
@@ -82,7 +95,11 @@ color: #FFFFFF;
 width: 141px;
 height: 49px;
 background-color: #F0A83E;
-border-radius: 15px;
+border-radius: 5px;
+position: relative;
+left: 750px;
+top: 180px;
+padding-top: 13px;
 }
 
 #titulo img {
@@ -96,6 +113,7 @@ position: relative;
 left: 360px;
 padding: 15px;
 margin: 15px;
+color: #666666;
 }
 
 h1 {
@@ -104,19 +122,6 @@ color: #3C2313;
 font-size: 40px;
 line-height: 46,88px;
 font-weight: bold;
-}
-
-.datos {
-font-size: 10px;
-line-height: 11,72px;
-color: #8A8787;
-}
-
-h5 {
-background-color: #222222;
-text-align: center;
-font-size: 10px;
-line-height: 11,72px;
 }
 
 section#productos article:nth-of-type(1) {
@@ -143,13 +148,14 @@ justify-content: space-around;
 margin: 30px;
 }
 
-p {
-color: #666666;
+article div {
+text-align: center;
+position: relative;
+top: 250px;
+color: #3C2313;
 }
 
-.titulo {
-color: #3C2313;   
-}
+
 
 .precios {
 color: #F0A83E;
@@ -170,21 +176,72 @@ position: relative;
 left: 350px;
 margin: 10px;
 }
-section#contacto div:nth-of-type(1), section#contacto div:nth-of-type(2), section#contacto div:nth-of-type(3) {
+section#contacto div {
 background-color: #3C2313;
 width: 340px;
 height: 40px;
-text-align: left;
-border-radius: 5px;
+border-radius: 15px;
 color: #FFFFFF;
 font-size: 9px;
 line-height: 10,55px;
 margin: 15px;
+padding: 15px;
+position: relative;
 }
+
+section#contacto span {
+background-color: #F0A83E;
+border-radius: 15px;
+padding: 10px 30px;
+position: relative;
+top: 10px;
+left: 80px;
+color: #FFFFFF;
+}
+
+section#contacto span:nth-last-of-type(2) {
+background-color: #8A8787;
+}
+
 
 #suscribite {
 background-color: #F0A83E;
 height: 60px;
+margin-top: 70px;
+}
+
+#suscribite h3{
+color: #FFFFFF;
+position: relative;
+left: 40px;
+margin-left: 10px;
+}
+
+#suscribite img {
+position: relative;
+top: 20px;
+}
+
+#suscribite div:nth-last-of-type(1) {
+position: relative;
+left: 870px;
+bottom: 70px;
+background-color: #3C2313;
+width: 100px;
+border-radius: 15px;
+padding: 10px;
+color: #FFFFFF;
+}
+
+#suscribite div:nth-last-of-type(2) {
+position: relative;
+left: 580px;
+bottom: 35px;
+background-color: #FFFFFF;
+width: 271px;
+border-radius: 15px;
+padding: 10px;
+color: #A0A0A0;
 }
 
 footer {
@@ -195,4 +252,46 @@ font-weight: bold;
 font-size: 20px;
 line-height: 23,44px;
 }
+
+.datos {
+font-size: 10px;
+line-height: 11,72px;
+color: #8A8787;
+position: relative;
+left: 80px;
+bottom: 35px;
+}
+    
+h5 {
+background-color: #222222;
+text-align: center;
+font-size: 10px;
+line-height: 11,72px;
+position: relative;
+bottom: 35px;
+}
+
+footer img {
+position: relative;
+left: 750px;
+bottom: 150px;
+}
+
+footer h3 {
+padding: 20px;
+font-size: 20px;
+line-height: 23,44px;
+}
+
+footer i {
+background-color: #8A8787;
+border-radius: 29px;
+height: 50px;
+width: 50px;
+position: relative;
+right: 8px;
+padding-left: 15px;
+padding-top: 10px;
+}
+
 
